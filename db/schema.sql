@@ -4,10 +4,10 @@ CREATE DATABASE burger_db;
 USE burger_db;
 
 CREATE TABLE burgers (
-    id int AUTO_INCREMENT,
-    burger_name varchar(50) NOT NULL,
+    id int AUTO_INCREMENT NOT NULL,
+    burger_name varchar(50),
     devoured BOOLEAN DEFAULT false,
     PRIMARY KEY (id),
-    date TIMESTAMP
+    createdAt TIMESTAMP NOT NULL
 );
 

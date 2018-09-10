@@ -13,4 +13,4 @@
 - The app will store every burger in a database, whether devoured or not.
 
 # DEMO
- ![EAT DA BURGER DISPLAY](/assets/img/Webp.net-resizeimage.png)
+ ![EAT DA BURGER DISPLAY](/public/assets/img/Webp.net-resizeimage.png)
